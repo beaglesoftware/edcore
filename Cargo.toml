@@ -1,0 +1,9 @@
+[package]
+name = "edcore"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+napi = { version = "2.16.17", features = ["napi4"] }
+napi-derive = "2.16.13"
+ropey = "1.6.1"
